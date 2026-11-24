@@ -1,7 +1,8 @@
 // Funniest Autocorrect Fail entry for make.fun
 // "u-zeroxfive-funniest-autocorrect-fail-ddf82154".
 // Writes exactly one line (under 200 characters) to /output/entry.txt:
-// a single autocorrect fail and nothing else.
+// a single autocorrect fail and nothing else. The line is 133 characters,
+// inside the sealed gate of 1-199 characters.
 // Fully offline and deterministic: no network, no clock, no randomness,
 // no environment reads. The fail is a fixed string literal below.
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
